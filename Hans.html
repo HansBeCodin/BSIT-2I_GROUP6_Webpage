@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Our Team Portfolio</title>
+		<link rel="stylesheet" href="Hans.css">
+	</head>
+	<body>
+
+		<script>
+  			document.addEventListener("DOMContentLoaded", function() {
+    			const scroller = document.querySelector('.member-scroll');
+    			if(scroller) {
+      				scroller.addEventListener('wheel', function(e) {
+        				if (e.deltaY === 0) return;
+        				e.preventDefault();
+        				scroller.scrollBy({
+          				left: e.deltaY,
+          				behavior: 'smooth'
+        			});
+      			}, { passive: false });
+    		}
+  		});
+	</script>	
+
+		<div class="header">
+			<h1 id="header1">Welcome to our</h1>
+			<h1 id="header2">GROUP PORTFOLIO</h1>
+
+		</div>
+				<nav class="navbar">
+					<ul>
+						<a href="Hans.html">Home</a>
+						<a href="aboutus.html">About Us</a>
+					</ul>
+				</nav>
+		<div class="meetourmembers">
+			<h1>MEET OUR MEMBERS</h1>
+		</div>
+		
+		<div class="mainbody">
+  			<div class="member-scroll">
+  				<div class="spacer"></div>
+  				<a class="member-card-link" href="individual-portfolio-Salvo.html">
+    				<div class="member-card" id="leader">
+    					<div class="member-card2" id="leader2">
+    						<img src="Hans Renzo Salvo.png" alt="Hans Renzo M. Salvo" class="member-photo">
+    						<h1>Hans Renzo M. Salvo</h1>
+  							<h2>Group Leader</h2>
+  						</div>
+    				</div>
+    			</a>
+    			<a class="member-card-link" href="individual-portfolio-Macaraeg.html">
+    				<div class="member-card" id="coleader">
+    					<div class="member-card2" id="coleader2">
+    						<img src="Khrizza Mhae Macaraeg.png"alt="Khrizza Mhae P. Macaraeg.html" class="member-photo">
+    						<h1>Khrizza Mhae P. Macaraeg</h1>
+  							<h2>Co-Leader</h2>
+  						</div>
+    				</div>
+    			</a>
+    			<a class="member-card-link" href="individual-portfolio-Eleazar.html">
+    				<div class="member-card">
+    					<div class="member-card2">
+    						<img src="Mark Joseph Eleazar.png" alt="Mark Joseph P. Eleazar" class="member-photo">
+    						<h1>Mark Joseph P. Eleazar</h1>
+  							<h2>Member</h2>
+  						</div>
+    				</div>
+    			</a>
+    			<a class="member-card-link" href="individual-portfolio-Galvez.html">
+    				<div class="member-card">
+    					<div class="member-card2">
+    						<img src="Jerome Galvez.png" alt="Jerome M. Galvez" class="member-photo">
+    						<h1>Jerome M. Galvez</h1>
+  							<h2>Member</h2>
+  						</div>
+    				</div>
+    			</a>
+    			<a class="member-card-link" href="individual-portfolio-Riolada.html">
+    				<div class="member-card">
+    					<div class="member-card2">
+    						<img src="Peter John Riolada.png" alt="Peter John S. Riolada" class="member-photo">
+    						<h1>Peter John S. Riolada</h1>
+  							<h2>Member</h2>
+  						</div>
+    				</div>
+    			</a>
+    			<div class="spacer"></div>
+  			</div>
+		</div>
+
+		<div class="bottomheader">
+			<p>Presented by: Block I, Group 6</p>
+		</div>
+
+	</body>
